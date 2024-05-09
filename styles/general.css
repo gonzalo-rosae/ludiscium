@@ -1,0 +1,48 @@
+:root {
+    --info: #3498db;
+}
+
+.tema-claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.tema-oscuro {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.correcto {
+    background-color: green !important;
+    color: white !important;
+}
+
+.incorrecto {
+    background-color: red !important;
+    color: white !important;
+}
+
+.resaltar {
+    background-color: orange;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+button {
+    cursor: pointer;
+}
+
+input[type="text"] {
+    font-weight: bold;
+}
+
+#btnCorregir {
+    font-weight: bold;
+    background-color: red;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    width: 100px;
+}

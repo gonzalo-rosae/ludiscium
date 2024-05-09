@@ -1,0 +1,80 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 600px;
+    /* Ajusta el ancho máximo según sea necesario */
+}
+
+h2 {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.info-icon {
+    font-weight: 700;
+    font-style: oblique;
+    border-radius: 50%;
+    background-color: #007BFF; /* Puedes ajustar el color según tus preferencias */
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 150px !important;
+    padding: 5px;
+    margin-top: 5px;
+    box-shadow: 0 0;
+}
+
+input[type="button"] {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    float: right !important;
+    margin-right: 10px !important;
+}
+
+.declensionTestHolder {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+.declensionTestTable {
+    max-width: 250px;
+}
+
+.colEntrada {
+    margin-bottom: 20px;
+}
+
+.correccion {
+    font-size: 14px !important;
+}
+
+#traduccion {
+    margin-top: 0 !important;
+}
+

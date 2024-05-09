@@ -1,0 +1,29 @@
+TODO:
+
+Sustantivos
+[x] Función validadora 1.ª declinación con feedback al usuario (verde/rojo_con_corrección)
+[] Añadir botón "estudiar" que enseñe todas las terminaciones de todas las declinaciones
+[x] Investigar regularidad del resto de declinaciones
+[x] Introducir el resto de declinaciones
+[x] Introducir al menos 5 palabras por declinación
+[x] Introducir impredecibles de la 3.ª declinación (tabla aparte?)
+[] Mirar que hacer con los neutros...
+
+Verbos
+[x] Crear estructura HTML
+[x] Crear tabla en la BD (guardar todas las formas suponiendo irregularidad?)
+[x] Función validadora
+[x] Añadir pretérito imperfecto (ind.)
+[x] Añadir futuro imperfecto (ind.)
+[] Añadir pretérito perfecto (ind.)
+[] Añadir futuro perfecto (ind.)
+[] Introducir más verbos (por lo menos 20 en total [5 x declinación])
+
+Pronombres personales
+[x] Crear todo
+
+Ejercicios
+[x] Añadir los ejercicios del test de Moodle
+
+General
+[] Arreglar menú principal (que no se abra una pestaña nueva) → router.php?

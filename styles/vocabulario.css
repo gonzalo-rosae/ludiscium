@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.info-icon {
+    font-weight: 700;
+    font-style: oblique;
+    border-radius: 50%;
+    background-color: #007BFF;
+    /* Puedes ajustar el color según tus preferencias */
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+input[type="text"] {
+    width: 150px !important;
+    padding: 5px;
+    margin-top: 5px;
+    box-shadow: 0 0;
+}
+
+input[type="button"], .buttonLike {
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: var(--info);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    float: right !important;
+    margin-right: 10px !important;
+
+}
+
+.colEntrada {
+    margin-bottom: 20px;
+}
+
+.correccion {
+    font-size: 14px !important;
+}
+
+#traduccion {
+    margin-top: 0 !important;
+}
+
+table {
+    margin-left: 200px;
+}
+
+.marco {
+    border: solid 1px white;
+}
