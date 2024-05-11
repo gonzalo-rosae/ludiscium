@@ -113,7 +113,7 @@ $sustantivo = getRandomNoun();
             // Orden: singular - nom., voc., ac., gen., dat., abl.; plural- nom., voc., ac., gen., dat., abl.
             var decl1 = ["a", "a", "am", "ae", "ae", "a", "ae", "ae", "as", "arum", "is", "is"];
             var decl2_us = ["us", "e", "um", "i", "o", "o", "i", "i", "os", "orum", "is", "is"];
-            // No contemplo los sustantivos con síncopa como "ager, agri" o "magister, magistri"
+            // Sustantivos con síncopa tratados ad hoc
             var decl2_er_ir = ["", "", "um", "i", "o", "o", "i", "i", "os", "orum", "is", "is"];
             var decl2N = ["um", "um", "um", "i", "o", "o", "a", "a", "a", "orum", "is", "is"];
 
@@ -156,6 +156,7 @@ $sustantivo = getRandomNoun();
                     desinenciasElegidas = decl2_us;
                 }
                 else {
+                    if (nombre == "liber") nombre = "libr";
                     indiceRaiz = 0;
                     desinenciasElegidas = decl2_er_ir;
                 }
