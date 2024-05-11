@@ -244,7 +244,11 @@ $sustantivo = getRandomNoun();
         }
 
         function mostrarDeclinacion() {
-            alert("Este sustantivo es " + genero + " y pertenece a la " + declinacion + ".ª declinación");
+            var generoLegible;
+            if (genero == "m") generoLegible = "masculino";
+            else if (genero == "f") generoLegible = "femenino";
+            else generoLegible = "neutro";
+            alert("Este sustantivo es " + generoLegible + " y pertenece a la " + declinacion + ".ª declinación");
         }
 
     </script>
