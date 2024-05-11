@@ -1,5 +1,6 @@
 :root {
     --info: #3498db;
+    --resaltar: orange;
 }
 
 .tema-claro {
@@ -23,7 +24,7 @@
 }
 
 .resaltar {
-    background-color: orange;
+    background-color: var(--resaltar);
 }
 
 .cursiva {
