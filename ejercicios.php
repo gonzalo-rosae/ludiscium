@@ -1,72 +1,71 @@
-<?php
-require_once ("database.php");
-require_once ("api.php");
-$ejercicios = getRandomExercises(5);
-?>
+/* styles.css */
 
-<!DOCTYPE html>
-<html lang="es">
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicios</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/ejercicios.css">
-    <script src="general.js"></script>
-</head>
+li {
+    list-style: none;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 600px;
+    /* Ajusta el ancho máximo según sea necesario */
+}
 
-<body>
-    <div>
-        <h2>
-            Ejercicios
-        </h2>
-    </div>
-    <hr>
-    <input type="button" name="check" value="Otros ejercicios" onclick="recargar()">
-    <div>
-        <li class="ejercicio"></li>
-        <li class="ejercicio"></li>
-        <li class="ejercicio"></li>
-        <li class="ejercicio"></li>
-        <li class="ejercicio"></li>
-    </div>
-    <p class="cursiva">Nota: en algún ejercicio puede haber más de una solución correcta.</p>
-    <input id="btnCorregir" type="button" name="check" value="Corregir" onclick="corregir()">
+input[type="text"] {
+    display: inline !important;
+    width: 20px !important;
+    padding: 5px;
+    margin-top: 5px;
+    box-shadow: 0 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+input[type="button"] {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    float: right !important;
+    margin-right: 10px !important;
+}
 
 
-    <script>
-        var ejercicios = <?php echo json_encode($ejercicios); ?>;
-        var soluciones = [];
+p {
+    display: inline !important;
+}
 
-        ejercicios.forEach(function (ejercicio, index) {
-            // Enunciado
-            var enunciadoCrudo = ejercicio.nombre;
-            var enunciadoHTML = enunciadoCrudo.split(' ').map(palabra => {
-                var clase;
-                if (palabra.includes("xx")) clase = '';
-                else clase = ' class="sobrepasar" onclick="buscar(this)"';
-                return `<span${clase}>${palabra}</span>`;
-            }).join(' ');
-            enunciadoHTML = "<p>" + enunciadoHTML + "</p>";
-            enunciadoHTML = enunciadoHTML.replace(/xx/g, '<input type="text"><span class="correccion cursiva"></span>');
-            var ejercicioElement = document.getElementsByClassName('ejercicio')[index];
-            ejercicioElement.innerHTML = enunciadoHTML;
+.cursiva {
+    font-style: italic;
+}
 
-            // Solución
-            var solucion = ejercicio.solucion;
-            solucion.split(";").forEach(function (solParcial) {
-                soluciones.push(solParcial);
-            });
-        });
+.colEntrada {
+    margin-bottom: 20px;
+}
 
-        function buscar(span) {
-            var url = "https://glosbe.com/la/en/" + span.innerText.toLowerCase();
-            window.open(url, '_blank');
-        }
+.correccion {
+    font-size: 14px !important;
+}
 
-    </script>
-</body>
+#traduccion {
+    margin-top: 0 !important;
+}
 
-</html>
+.sobrepasar {
+    border-radius: 3px;
+    padding: 1px;
+}
+
+.sobrepasar:hover {
+    cursor: pointer;
+    background-color: orangered;
+}
