@@ -87,7 +87,7 @@ VALUES
     ('cera', 'cera', 1, 'f', ''),
     ('ira', 'ira', 1, 'f', ''),
     ('catella', 'perrita', 1, 'f', ''),
-    ('casa', 'cabaña', 1, 'f', ''),
+    ('casa', 'cabaña/choza', 1, 'f', ''),
     ('pugna', 'lucha', 1, 'f', ''),
 
     ('deus', 'dios', 2, 'm', ''),
@@ -133,8 +133,9 @@ VALUES
     ('ductus', 'conducción', 4, 'm', ''),
     ('exercitus', 'ejército', 4, 'm', ''),
     ('eventus', 'resultado', 4, 'm', ''),
-    ('meridies', 'mediodía', 4, 'm', ''),
-    ('series', 'serie/sucesión', 4, 'm', '');
+
+    ('meridies', 'mediodía', 5, 'm', ''),
+    ('series', 'serie/sucesión', 5, 'f', '');
 
 /* parva, magna, aperta, clausa, laboriosa, laeta, sordida, alba, rubra, pulchra, fessa, bona, vera */
 /* latus, callidus, mundus, sordidus, timidus, bonus, carus, pulcher, iniustus, frigidus, fuscus, niger, albus, curatus, frugiler, lepidus, nullus, subiectus, turbulentus */
