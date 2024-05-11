@@ -142,7 +142,10 @@ $verb = getRandomVerb();
         elegirTiempo("presente");
 
         function mostrarConjugacion() {
-            alert("Este verbo pertenece a la " + conjugacion + ".ª conjugación");
+            var mensaje;
+            if (conjugacion == 5) mensaje = "conjugación mixta";
+            else mensaje = conjugacion + ".ª conjugación";
+            alert("Este verbo pertenece a la " + mensaje);
         }
 
         function elegirTiempo(tiempo) {
