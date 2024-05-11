@@ -1,14 +1,23 @@
 // Ejecución
 
 document.addEventListener('DOMContentLoaded', function() {
-    const temaGuardado = localStorage.getItem('tema');
+    let temaGuardado = localStorage.getItem('tema');
     const body = document.body;
+    
+    // Si el valor de temaGuardado es nulo, establece el tema predeterminado y guárdalo
+    if (!temaGuardado) {
+        temaGuardado = 'claro';
+        localStorage.setItem('tema', temaGuardado);
+    }
+
+    // Aplica el tema guardado al cuerpo del documento
     if (temaGuardado === 'oscuro') {
         body.classList.add('tema-oscuro');
     } else {
         body.classList.add('tema-claro');
     }
 });
+
 
 
 // Funciones auxiliares
@@ -74,23 +83,16 @@ function corregirEnRango(desde, hasta) {
         boton.value = "Limpiar";
     }
     else if (boton.value == "Limpiar") {
-        for (var i = desde; i <= hasta; i++) {
-            entradas[i].value = "";
-            entradas[i].classList.remove("correcto", "incorrecto");
-            correcciones[i].textContent = "";
-        }
-        boton.value = "Corregir";
+        limpiarCampos();
     }
 }
 
 
 function esCorrecto(candidato, solucion) {
     if (!solucion.includes("/")) {
-        if (candidato == "pueblo") console.log("no la incluye!!");
         return candidato == solucion;
     }
     else {
-        if (candidato == "pueblo") console.log("la incluye!!");
         var posibilidades = solucion.split("/");
         for (const sol of posibilidades) {
             if (candidato == sol) return true;
@@ -106,7 +108,7 @@ function limpiarCampos() {
 
     // Limpiamos los campos
     for (var i = 0; i < entradas.length; i++) {
-        entradas[i].style.backgroundColor = colorPrevio;
+        entradas[i].classList.remove("correcto", "incorrecto");
         entradas[i].value = "";
         correcciones[i].textContent = "";
     }
