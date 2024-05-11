@@ -466,7 +466,51 @@
                                 ablativo</p>
                             <p class="ejemplo">Petrus altior est Antonio.</p>
                             <p>► El adjetivo en -ior se forma así:</p>
-                            <table></table>
+                            <table class="centrar">
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2"></th>
+                                        <th colspan="2">Singular</th>
+                                        <th colspan="2">Plural</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Masc./Fem.</th>
+                                        <th>Neutro</th>
+                                        <th>Masc./Fem.</th>
+                                        <th>Neutro</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Nominativo</td>
+                                        <td>altior</td>
+                                        <td>altius</td>
+                                        <td>altiores</td>
+                                        <td>altiora</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Acusativo</td>
+                                        <td>altiorem</td>
+                                        <td>altius</td>
+                                        <td>altiores</td>
+                                        <td>altiora</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Genitivo</td>
+                                        <td colspan="2">altioris</td>
+                                        <td colspan="2">altiorum</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dativo</td>
+                                        <td colspan="2">altiori</td>
+                                        <td colspan="2" rowspan="2">altioribus</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ablativo</td>
+                                        <td colspan="2">altior(e)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </td>
                     </table>
                 </ul>
