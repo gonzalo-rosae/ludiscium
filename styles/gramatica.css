@@ -32,16 +32,16 @@ h1 {
 }
 
 tr {
-    border: 1px solid black; 
+    border: 1px solid black;
 }
 
 th {
-    border: 1px solid black; 
+    border: 1px solid black;
 }
 
 td {
     padding: 5px;
-    border: 1px solid black; 
+    border: 1px solid black;
 }
 
 .oculto {
@@ -90,4 +90,9 @@ img {
 
 table {
     padding: 10px;
+}
+
+.inline {
+    display: inline-block;
+    margin-right: 10px;
 }
