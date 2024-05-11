@@ -71,7 +71,7 @@ function corregirEnRango(desde, hasta) {
 
     if (boton.value == "Corregir") {
         for (var i = desde; i <= hasta; i++) {
-            if (esCorrecto(entradas[i].value.toLowerCase(), soluciones[i])) {
+            if (esCorrecto(entradas[i].value.toLowerCase(), soluciones[i].toLowerCase())) {
                 clase = 'correcto';
             }
             else {
