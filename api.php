@@ -82,7 +82,7 @@ function getRandomVerb()
     $result = mysqli_query($db_conn, $query) or die(mysqli_error($mysqli));
     $data = mysqli_fetch_array($result);
 
-    incrementarApariciones($data, "verbos");
+    incrementar("apariciones", $data, "verbos");
 
     return $data;
 }
@@ -97,7 +97,7 @@ function getRandomExercises($limit)
     $result = mysqli_query($db_conn, $query) or die(mysqli_error($mysqli));
     $data = array();
     while ($row = mysqli_fetch_array($result)) {
-        incrementarApariciones($row, "ejercicios");
+        incrementar("apariciones", $row, "ejercicios");
         $data[] = $row;
     }
 
