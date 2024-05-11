@@ -32,6 +32,7 @@ $ejercicios = getRandomExercises(5);
         <li class="ejercicio"></li>
         <li class="ejercicio"></li>
     </div>
+    <p class="cursiva">Nota: en algún ejercicio puede haber más de una solución correcta.</p>
     <input id="btnCorregir" type="button" name="check" value="Corregir" onclick="corregir()">
 
 
@@ -42,7 +43,13 @@ $ejercicios = getRandomExercises(5);
         ejercicios.forEach(function (ejercicio, index) {
             // Enunciado
             var enunciadoCrudo = ejercicio.nombre;
-            var enunciadoHTML = "<p>" + enunciadoCrudo + "</p>";
+            var enunciadoHTML = enunciadoCrudo.split(' ').map(palabra => {
+                var clase;
+                if (palabra.includes("xx")) clase = '';
+                else clase = ' class="sobrepasar" onclick="buscar(this)"';
+                return `<span${clase}>${palabra}</span>`;
+            }).join(' ');
+            enunciadoHTML = "<p>" + enunciadoHTML + "</p>";
             enunciadoHTML = enunciadoHTML.replace(/xx/g, '<input type="text"><span class="correccion cursiva"></span>');
             var ejercicioElement = document.getElementsByClassName('ejercicio')[index];
             ejercicioElement.innerHTML = enunciadoHTML;
@@ -53,6 +60,11 @@ $ejercicios = getRandomExercises(5);
                 soluciones.push(solParcial);
             });
         });
+
+        function buscar(span) {
+            var url = "https://glosbe.com/la/en/" + span.innerText.toLowerCase();
+            window.open(url, '_blank');
+        }
 
     </script>
 </body>
