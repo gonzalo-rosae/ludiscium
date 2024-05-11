@@ -164,6 +164,19 @@ $verb = getRandomVerb();
                         break;
                 }
             }
+            else {
+                switch (raiz) {
+                    case "cecin":
+                        raiz = "can";
+                        break;
+                    case "cep":
+                        raiz = "capi";
+                        break;
+                    case "vid":
+                        raiz = "vide";
+                        break;
+                }
+            }
 
             // Creamos las soluciones
             soluciones = desinenciasElegidas[conjugacion - 1].map(desinencia => raiz + desinencia);
