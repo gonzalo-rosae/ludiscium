@@ -50,6 +50,8 @@
             <h2>Tipos de adjetivo</h2>
             <div id="adjetivos" class="seccion oculto">
                 <div class="margen">
+                    <p>Nota: cuando se habla de que un adjetivo "tiene N terminaciones", se refiere al número de
+                        terminaciones en nominativo singular.</p>
                     <h3>Adjetivos de 1.ª clase</h3>
                     <p>
                         Tienen 3 terminaciones, una por cada género, y coinciden con las desinencias de los sustantivos:
@@ -157,8 +159,9 @@
                 <div class="margen">
                     <h3>Adjetivos de 2.ª clase</h3>
                     <p>
-                        Pueden tener una, dos o tres terminaciones. Sus desinencias son las de la 3.ª declinación (ablativo
-                        singular en -i).
+                        Pueden tener una, dos o tres terminaciones. Sus desinencias son las de la 3.ª declinación
+                        (ablativo
+                        singular en -is).
                         <br>
                         Casi todos son temas en -i.
                     </p>
@@ -453,13 +456,17 @@
 
                     <table>
                         <td>
-                            <p>- Normalmente, en el comparativo de superioridad se sustituye "plus/magis x" por "x-ior"</p>
+                            <p>► Normalmente, en el comparativo de superioridad se sustituye "plus/magis x" por "x-ior"
+                            </p>
                             <p class="ejemplo">Petrus altior est quam Antonius.</p>
-                            <p>- En este caso, también podemos eliminar el "quam" a cambio de poner el segundo término de la
+                            <p>► En este caso, también podemos eliminar el "quam" a cambio de poner el segundo término
+                                de la
                                 comparación
                                 en
                                 ablativo</p>
                             <p class="ejemplo">Petrus altior est Antonio.</p>
+                            <p>► El adjetivo en -ior se forma así:</p>
+                            <table></table>
                         </td>
                     </table>
                 </ul>
@@ -485,15 +492,17 @@
             <div id="pasiva" class="seccion oculto">
                 <p>Para verbos transitivos:</p>
                 <p>
-                    El sujeto de la activa (nominativo) pasa a sujeto agente (ablativo). El CD de la activa pasa a sujeto paciente (nominativo).
+                    El sujeto de la activa (nominativo) pasa a sujeto agente (ablativo). El CD de la activa (acusativo)
+                    pasa a sujeto paciente (nominativo).
                     <br>
-                    Además, si el agente es una persona, irá antecedido de a(b). Al verbo se le añade la desinencia de pasiva correspondiente.
+                    Además, si el agente es una persona, irá antecedido de a(b). Al verbo se le añade la desinencia de
+                    pasiva correspondiente.
                 </p>
                 <p class="ejemplo">Puella reginam amat → a puella regina amatur</p>
                 <table>
-                        <th>Personas</th>
-                        <th>Singular</th>
-                        <th>Plural</th>
+                    <th>Persona</th>
+                    <th>Singular</th>
+                    <th>Plural</th>
                     <tr>
                         <td>1.ª</td>
                         <td>-(o)r</td>
@@ -526,7 +535,7 @@
                         <th>EJEMPLOS</th>
                     </tr>
                     <tr>
-                        <td rowspan="2">COPULATIVAS</td>
+                        <td rowspan="2">Copulativas</td>
                         <td rowspan="2">et, -que, atque/ac</td>
                         <td>Parentes liberique agrum laborant</td>
                     </tr>
@@ -534,7 +543,7 @@
                         <td>[Los padres y los hijos trabajan el campo]</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">DISYUNTIVAS</td>
+                        <td rowspan="2">Disyuntivas</td>
                         <td rowspan="2">aut, vel, -ve, sive/seu</td>
                         <td>Cita mors venit aut laeta victoria</td>
                     </tr>
@@ -542,7 +551,7 @@
                         <td>[Se avecina una muerte rápida o una alegre victoria]</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">ADVERSATIVAS</td>
+                        <td rowspan="2">Adversativas</td>
                         <td rowspan="2">sed, at, autem</td>
                         <td>Video te venientem, sed non video meam pecuniam</td>
                     </tr>
@@ -550,7 +559,7 @@
                         <td>[Veo que vienes, pero no veo mi dinero]</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">CAUSALES/EXPLICATIVAS</td>
+                        <td rowspan="2">Causales/explicativas</td>
                         <td rowspan="2">nam, namque, enim</td>
                         <td>Ne te excuses, nam facile venisse poteras</td>
                     </tr>
@@ -558,7 +567,7 @@
                         <td>[No te excuses, pues podías haber venido fácilmente]</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">ILATIVAS</td>
+                        <td rowspan="2">Ilativas</td>
                         <td rowspan="2">ergo, igitur, itaque</td>
                         <td>Iam pluere desinit, ergo exeamus</td>
                     </tr>
@@ -582,7 +591,7 @@
                         <th>EJEMPLOS</th>
                     </tr>
                     <tr>
-                        <td rowspan="2">CAUSAL</td>
+                        <td rowspan="2">Causal</td>
                         <td rowspan="2">quia</td>
                         <td>Omnes ei abeunt, quia periculum vitant</td>
                     </tr>
@@ -590,7 +599,7 @@
                         <td>[Todos ellos se marchan, porque evitan el peligro]</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">TEMPORAL</td>
+                        <td rowspan="2">Temporal</td>
                         <td rowspan="2">cum</td>
                         <td>Cum Caesar in Galliam venit, in ea duae factiones erant</td>
                     </tr>
@@ -598,7 +607,7 @@
                         <td>[Cuando César llegó a la Galia, había dos bandos en ella]</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">TEMPORAL</td>
+                        <td rowspan="2">Temporal</td>
                         <td rowspan="2">dum</td>
                         <td>Dum Caesar in Gallia fuit, nullum periculum eos minavit</td>
                     </tr>
@@ -606,7 +615,7 @@
                         <td>[Mientras César estuvo en la Galia, ningún peligro los amenazó]</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">MODAL</td>
+                        <td rowspan="2">Modal</td>
                         <td rowspan="2">ut</td>
                         <td>Ut ego dixeram, Caesar cum exercitu venit</td>
                     </tr>
@@ -623,6 +632,7 @@
             </button>
             <h2>Numerales</h2>
             <div id="numerales" class="seccion oculto">
+                <h3>Lista primeros numerales</h3>
                 <table class="margen">
                     <tr>
                         <td>I</td>
@@ -642,7 +652,7 @@
                         <td>XII</td>
                         <td>Duodecim</td>
                         <td>XXII</td>
-                        <td>Duodeviginti</td>
+                        <td>Viginti duo</td>
                         <td>L</td>
                         <td>Quinquaginta</td>
                         <td>CCC</td>
@@ -654,7 +664,7 @@
                         <td>XIII</td>
                         <td>Tredecim</td>
                         <td>XXIII</td>
-                        <td>Tredeviginti</td>
+                        <td>Viginti tres</td>
                         <td>LX</td>
                         <td>Sexaginta</td>
                         <td>CCCC</td>
@@ -744,6 +754,115 @@
                         <td>MM</td>
                         <td>Duo milia</td>
                     </tr>
+                </table>
+                <h3>Declinaciones de los números uno, dos y tres</h3>
+                <table class="centrar inline">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Masculino</th>
+                            <th>Femenino</th>
+                            <th>Neutro</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nominativo</td>
+                            <td>unus</td>
+                            <td>una</td>
+                            <td>unum</td>
+                        </tr>
+                        <tr>
+                            <td>Acusativo</td>
+                            <td>unum</td>
+                            <td>unam</td>
+                            <td>unum</td>
+                        </tr>
+                        <tr>
+                            <td>Genitivo</td>
+                            <td colspan="3">unius</td>
+                        </tr>
+                        <tr>
+                            <td>Dativo</td>
+                            <td colspan="3">uni</td>
+                        </tr>
+                        <tr>
+                            <td>Ablativo</td>
+                            <td>uno</td>
+                            <td>una</td>
+                            <td>uno</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="centrar inline">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Masculino</th>
+                            <th>Femenino</th>
+                            <th>Neutro</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nominativo</td>
+                            <td>duo</td>
+                            <td>duae</td>
+                            <td>duo</td>
+                        </tr>
+                        <tr>
+                            <td>Acusativo</td>
+                            <td>duos</td>
+                            <td>duas</td>
+                            <td>duo</td>
+                        </tr>
+                        <tr>
+                            <td>Genitivo</td>
+                            <td>duorum</td>
+                            <td>duarum</td>
+                            <td>duorum</td>
+                        </tr>
+                        <tr>
+                            <td>Dativo</td>
+                            <td rowspan="2">duobus</td>
+                            <td rowspan="2">duabus</td>
+                            <td rowspan="2">duobus</td>
+                        </tr>
+                        <tr>
+                            <td>Ablativo</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="centrar inline">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Masculino</th>
+                            <th>Femenino</th>
+                            <th>Neutro</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nominativo</td>
+                            <td rowspan="2" colspan="2">tres</td>
+                            <td rowspan="2">tria</td>
+                        </tr>
+                        <tr>
+                            <td>Acusativo</td>
+                        </tr>
+                        <tr>
+                            <td>Genitivo</td>
+                            <td colspan="3">trium</td>
+                        </tr>
+                        <tr>
+                            <td>Dativo</td>
+                            <td rowspan="2" colspan="3">tribus</td>
+                        </tr>
+                        <tr>
+                            <td>Ablativo</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>
