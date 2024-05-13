@@ -117,7 +117,7 @@ $sustantivo = getRandomNoun();
             var decl2_er_ir = ["", "", "um", "i", "o", "o", "i", "i", "os", "orum", "is", "is"];
             var decl2N = ["um", "um", "um", "i", "o", "o", "a", "a", "a", "orum", "is", "is"];
 
-            var decl3_i = ["is", "is", "em", "is", "i", "e", "es", "es", "es", "ium", "ibus", "ibus"];
+            var decl3_i = ["is", "is", "em", "is", "i", "i", "es", "es", "es", "ium", "ibus", "ibus"];
             // Labiales y -m
             var decl3_lab_m = ["s", "s", "em", "is", "i", "e", "es", "es", "es", "um", "ibus", "ibus"];
             // Líquidas
